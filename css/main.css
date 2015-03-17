@@ -5,3 +5,15 @@ html{
 *, *::before, *::after{
   box-sizing; inherit;
 }
+header img{
+  width:65px;
+  position:absolute;
+  left: calc(50% - 32.5px);
+}
+header{
+  background-color: #e7001d;
+  padding:1rem 0;
+  color:white;
+  position:relative;
+  text-align:center;
+}
