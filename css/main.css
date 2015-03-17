@@ -3,7 +3,10 @@ html{
   font-family: 'Noto Sans' , sans-serif;
 }
 *, *::before, *::after{
-  box-sizing; inherit;
+  box-sizing: inherit;
+}
+body{
+  margin:0;
 }
 header img{
   width:65px;
@@ -28,4 +31,36 @@ header h1{
   position:relative;
   margin:0;
   text-shadow:1px 1px 5px black;
+}
+nav ol{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+nav li{
+  background-color: #222;
+  display:inline;
+  width:50%;
+  float:left;
+  padding:.5em;
+}
+.shen img{
+  width:100%;
+}
+.shen{
+  position:relative;
+  width:100%;
+}
+.shen h2{
+  position:absolute;
+  text-align:center;
+  width:100%;
+  color:white;
+  font-style:italic;
+  bottom:.3em;
+  text-shadow: 1px 1px 5px black;
+}
+a{
+  text-decoration:none;
+  color:white;
 }
