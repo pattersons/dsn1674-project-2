@@ -64,3 +64,75 @@ a{
   text-decoration:none;
   color:white;
 }
+.sheng{
+  margin:1em .5em;
+}
+.dragon{
+  background-color: #e4c22a;
+  padding:.5em;
+  text-align:center;
+}
+.dragon p{
+  clear:left;
+  font-style:italic;
+  font-size:11px;
+}
+.dragon img{
+  width:40%;
+  float:left;
+  margin-left:6.5%;
+}
+.goat{
+  background-color: #222;
+  padding:.5em;
+  text-align:center;
+  color:white;
+}
+.goat p{
+  clear:left;
+  font-style:italic;
+  font-size:11px;
+}
+.goat img{
+  width:40%;
+  float:left;
+  margin-left:6.5%;
+}
+.rooster{
+  background-color: #bc0017;
+  padding:.5em;
+  text-align:center;
+  color:white;
+}
+.rooster p{
+  clear:left;
+  font-style:italic;
+  font-size:11px;
+}
+.rooster img{
+  width:40%;
+  float:left;
+  margin-left:6.5%;
+}
+.ox{
+  background-color: #e4c22a;
+  padding:.5em;
+  text-align:center;
+}
+.ox p{
+  clear:left;
+  font-style:italic;
+  font-size:11px;
+}
+.ox img{
+  width:40%;
+  float:left;
+  margin-left:6.5%;
+}
+footer{
+  background-color:#222;
+  text-align:center;
+  text-decoration:underline;
+  padding:2em;
+  font-size:.7em;
+}
