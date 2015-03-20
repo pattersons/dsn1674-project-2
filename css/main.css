@@ -11,7 +11,7 @@ body{
 header img{
   width:65px;
   position:absolute;
-  left: calc(50% - 32.5px);
+  left:calc(50% - 32.5px);
 }
 header{
   background-color: #e7001d;
@@ -36,6 +36,8 @@ nav ol{
   margin:0;
   padding:0;
   overflow:hidden;
+  border-top:1px solid black;
+  border-left:1px solid black;
 }
 nav li{
   background-color: #222;
@@ -43,6 +45,8 @@ nav li{
   width:50%;
   float:left;
   padding:.5em;
+  border-bottom:1px solid black;
+  border-right:1px solid black;
 }
 .shen img{
   width:100%;
